@@ -10,7 +10,7 @@ public class adminController {
 
 	@GetMapping("/test")
 	public String test() { 
-		return "welcome to spring boot openshift application";
+		return "welcome to spring boot openshift application - nks ";
 //		Username: springUser
 //	    Password: neeraj@123
 //	  Database Name: springCmsdb
