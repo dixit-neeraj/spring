@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/site")
+@RequestMapping("/")
 public class indexController {
 
-	@GetMapping("/")
+	@GetMapping("")
 	public String index(Model model) {
 
 		model.addAttribute("name", "neeraj kumar sharma");
@@ -17,7 +17,7 @@ public class indexController {
 		return "index";
 	}
 
-	@GetMapping("/about")
+	@GetMapping("about")
 	public String about(Model model) {
 
 		model.addAttribute("name", "neeraj kumar sharma");
